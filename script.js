@@ -39,7 +39,7 @@ function showMovies(movies) {
     main.appendChild(movieEl);
     movieEl.addEventListener("click", () => {
       localStorage.setItem("movie", JSON.stringify(movie));
-      window.location = "../moviepage/movie.html";
+      window.location = "./moviepage/movie.html";
     });
   });
 }
